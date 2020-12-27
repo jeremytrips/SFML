@@ -1,3 +1,6 @@
-Window_close 0:36
-Fullscreen_toggle 5:89
-Move 9:0 24:38
+WindowClose 0:0
+FullscreenToggle 5:89
+IntroContinue 5:57
+MouseLeft 9:0
+KeyEsc 5:36
+KeyP 5:15

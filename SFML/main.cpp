@@ -1,16 +1,15 @@
 #include "src/game/Game.h"
 
-// Todo debug envent handler
+// Improve Envent manager class
 
 
 int main() {
 
     Game game;
     while (!game.getWindow()->isDone()) {
-        game.handlInput();
         game.update();
         game.render();
-        game.restartClock();
+        game.lateUpdate();
     }
 
     return 0;

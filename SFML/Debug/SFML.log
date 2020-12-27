@@ -1,3 +1,0 @@
-﻿  EventManager.cpp
-C:\dev\SFML\SFML\src\Manager\EventManager.cpp(120,33): warning C4553: '==': result of expression not used; did you intend '='?
-  SFML.vcxproj -> C:\dev\SFML\Debug\SFML.exe

@@ -148,14 +148,34 @@
     <ClCompile Include="src\game\Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\graphics\Window.cpp" />
+    <ClCompile Include="src\Manager\StateManager.cpp" />
+    <ClCompile Include="src\states\StateIntro.cpp" />
+    <ClCompile Include="src\states\StateMainMenu.cpp" />
+    <ClCompile Include="src\states\StateGame.cpp" />
+    <ClCompile Include="src\states\StatePaused.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\states\BaseState.h" />
     <ClInclude Include="src\Manager\EventManager.h" />
     <ClInclude Include="src\game\Game.h" />
     <ClInclude Include="src\graphics\Window.h" />
+    <ClInclude Include="src\Manager\StateManager.h" />
+    <ClInclude Include="src\states\StateIntro.h" />
+    <ClInclude Include="src\utils\SharedContext.h" />
+    <ClInclude Include="src\states\StateMainMenu.h" />
+    <ClInclude Include="src\states\StateGame.h" />
+    <ClInclude Include="src\states\StatePaused.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="config.cfg.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\intro.png" />
+    <Image Include="assets\mushroom.png" />
+    <Image Include="mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\font\intro_font.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
